@@ -1,0 +1,23 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+---
+name: NextJS Only Standards
+type: always
+description: Defines patterns to follow in this project
+---
+
+Proect rules:
+- Always use ShadCNUI components where possible. If not installed, install them using the 'shadcn@latest' package (Not 'shadcn-ui@latest' package)
+- Do not use Typescript.
+- Important: try to fix things at the cause, not the symptom.
+- Favor clean and easily understandable code with minimal dependencies.
+- Project uses NextJS 15
+- Zod for form validations
+- Always use apiClient for making API requests (in lib/api/client.js)
+- Always group api endpoints into organised files, in the same format that 'lib/api/auth.js' does
+- Always use kebab-case syntax for file names and imports of components in this project (eg. AuthLayout - 'auth-layout.js')
+- Do not update the fonts used in any way.
+- Always use TailwindCSS version 4 (v4)

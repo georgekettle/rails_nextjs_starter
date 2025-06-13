@@ -1,0 +1,17 @@
+# System files
+.DS_Store
+
+# Logs
+*.log
+
+# Root-level env files
+.env
+.env.*
+
+# Node.js / Next.js common
+node_modules/
+
+# Rails common
+.bundle/
+log/
+tmp/
